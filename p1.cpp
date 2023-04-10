@@ -1,3 +1,5 @@
+// Program to print subsequences in an array or to print the subsets of a set
+
 #include<bits/stdc++.h>
 using namespace std;
 
