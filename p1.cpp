@@ -3,12 +3,12 @@ using namespace std;
 
 void recurr(int index, vector<int>&container,int arr[],int n){
     //base case
-    if(index==n){
+    if(index==n){ //when we completely traversed the array 
         for (auto it:container){
             cout<<it<<" ";
         }
         if(container.size()==0){
-            cout<<"{}"<<" ";
+            cout<<"{}"<<" ";   // to print the null subsequence
         }
         cout<<endl;
         return;
@@ -30,5 +30,5 @@ int main(){
     int n=5;
     vector<int>container;
     recurr(0,container,arr,n);
-    
+
     }
